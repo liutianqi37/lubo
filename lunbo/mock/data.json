@@ -1,0 +1,31 @@
+[{
+        "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533655193258&di=5477332b51a632478b37c5dc37a10980&imgtype=0&src=http%3A%2F%2Fimg1.3lian.com%2F2015%2Fa1%2F20%2Fd%2F10.jpg",
+        "info": "水果",
+        "id": 1,
+        "url": "fruit.html"
+    },
+    {
+        "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533655775883&di=9c70b6ed7634bbf08c043a3448944784&imgtype=0&src=http%3A%2F%2Fimg05.tooopen.com%2Fimages%2F20140711%2Fsy_65758317911.jpg",
+        "info": "家电",
+        "id": 2,
+        "url": "fruit.html"
+    },
+    {
+        "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533655193257&di=f54fb96a0d7465f3b6dfd84bec14219f&imgtype=0&src=http%3A%2F%2Fpic6.photophoto.cn%2F20080109%2F0012024478743814_b.jpg",
+        "info": "居家",
+        "id": 3,
+        "url": "fruit.html"
+    },
+    {
+        "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533655252387&di=c2270e6f2fc866d50eea32b85fa8e794&imgtype=jpg&src=http%3A%2F%2Fimg2.imgtn.bdimg.com%2Fit%2Fu%3D3166804992%2C399876267%26fm%3D214%26gp%3D0.jpg",
+        "info": "数码",
+        "id": 4,
+        "url": "fruit.html"
+    },
+    {
+        "img": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1533655193255&di=1ee8d3ae2827e9ff6f3472a5ca430a94&imgtype=0&src=http%3A%2F%2Fpic.58pic.com%2F58pic%2F16%2F60%2F18%2F23E58PICzNY_1024.jpg",
+        "info": "食品",
+        "id": 5,
+        "url": "fruit.html"
+    }
+]
