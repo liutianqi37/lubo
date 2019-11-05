@@ -1,0 +1,72 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1146637",
+      "name": "wode",
+      "font_class": "wode",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    },
+    {
+      "icon_id": "1313810",
+      "name": "电影院",
+      "font_class": "dianying",
+      "unicode": "e65b",
+      "unicode_decimal": 58971
+    },
+    {
+      "icon_id": "1327516",
+      "name": "zan",
+      "font_class": "zan",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1715041",
+      "name": "水电煤",
+      "font_class": "shuidianmei",
+      "unicode": "e62c",
+      "unicode_decimal": 58924
+    },
+    {
+      "icon_id": "5722580",
+      "name": "校园投票",
+      "font_class": "xiaoyuantoupiao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    },
+    {
+      "icon_id": "6870301",
+      "name": "留言",
+      "font_class": "icon-test",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    },
+    {
+      "icon_id": "7134734",
+      "name": "浏览",
+      "font_class": "liulan",
+      "unicode": "e67e",
+      "unicode_decimal": 59006
+    },
+    {
+      "icon_id": "9968247",
+      "name": "shouye",
+      "font_class": "shouye",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    },
+    {
+      "icon_id": "11365025",
+      "name": "心",
+      "font_class": "tubiao-",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+.groupbox{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;  
+    background-color: #f3f3f7;;
+}
+.inp{
+    width: 270px;
+	height: 35px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(229, 229, 229, 1);
+	border-radius: 18px;
+    font-size: 12px;
+    border:0;
+    margin-top: 10px;
+    margin-left:55px;
+    text-align: center;
+}
+.manygroup{
+    width: 344px;
+    height: 300px;
+    background-color: rgba(255, 255, 255, 1);
+    margin-left:15px;
+    margin-top: 30px;
+}
+.gtitle{
+    width: 344px;
+    height: 40px;
+    line-height: 40px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	font-size: 15px;
+	line-height: 150%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.manyt{
+    flex: 1;
+    font-size: 12px;
+}
+.lookt{
+    flex: 1;
+	color: rgba(42, 130, 228, 1);
+	font-size: 12px;
+}
+.lookt NavLink{
+    color: rgba(42, 130, 228, 1);
+}
+.gcontent{
+    width: 100%;
+	color: rgba(80, 80, 80, 1);
+    background-color: rgba(255, 255, 255, 1);
+	font-size: 15px;
+    display:flex;
+    flex-wrap:nowrap;
+    overflow-x:scroll;
+}
+/* 单个小组 */
+.pbox{
+    width:20%;
+    display: flex;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.gbox{
+    flex:1;
+    width: 300px;
+}
+.gtop{
+    width: 60px;
+	height: 60px;
+	border-radius: 6px;
+}
+.gtop img{
+    width: 60px;
+	height: 60px;
+	left: -41px;
+}
+.gname{
+    width: 97px;
+	height: 19px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 13px;
+	line-height: 150%;
+	text-align: left;
+    font-weight: bold;
+    margin-top: 10px;
+}

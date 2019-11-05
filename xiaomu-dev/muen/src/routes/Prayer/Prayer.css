@@ -1,0 +1,228 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  background: #fff;
+  text-align: center;
+}
+footer {
+  display: flex;
+}
+
+footer span{
+  flex: 1;
+}
+.prayerHot{
+
+}
+.main{
+  flex: 1;
+  height: 100%;
+  margin-top:20px;
+}
+
+footer span {
+  flex: 1;
+}
+.prayerContent{
+  width:100%;
+  overflow: auto;
+}
+/* 置顶内容 */
+.toptitle {
+  width: 32px;
+	height: 24px;
+  margin-left:12px;
+  margin-top:10px;
+	color: rgba(0, 0, 0, 1);
+	font-size: 14px;
+}
+.topbox {
+  width: 350px;
+	height: 106px;
+  margin-top: 10px;
+  margin-left: 10px;
+	color: rgba(80, 80, 80, 1);
+	background-color: rgba(255, 255, 255, 1);
+	border-radius: 4px;
+	font-size: 14px;
+	line-height: 150%;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+}
+/* 图片 */
+.timg{
+  width: 40px;
+	height: 40px;
+  line-height:40px;
+	border-radius: 21px;
+  padding-top: 20px;
+  padding-left:15px;
+  flex:1;
+}
+.timg img{
+  width: 45px;
+	height: 45px;
+  line-height:45px;
+	border-radius: 21px;
+}
+.tname{
+  width: 56px;
+	height: 21px;
+	margin-left: 80px;
+	/* padding-top: 10px; */
+	color: rgba(80, 80, 80, 1);
+	font-size: 12px;
+  margin-top:-25px;
+
+}
+.tcon{
+  width: 247px;
+	height: 42px;
+	padding-left: 80px;
+
+	color: rgba(80, 80, 80, 1);
+	font-size: 12px;
+	line-height: 150%;
+  margin-top:10px;
+
+}
+.tnow{
+  font-size:11px;
+  margin-left:130px;
+  color: rgba(80, 80, 80, 1);
+  margin-left:230px;
+  margin-top:-7px;
+}
+.teditor{
+  width: 24px;
+	height: 18px;
+	margin-left: 300px;
+	margin-top: -90px;
+	color: rgba(28, 30, 122, 1);
+	font-size: 12px;
+}
+
+.allmes{
+  width: 56px;
+	height: 21px;
+  margin-left:12px;
+  margin-top:20px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 12px;
+  text-align: left;
+}
+.content{
+  width:100%;
+  background: red;
+  overflow: auto;
+}
+
+.praybox{
+  width: 350px;
+  height: 100px;
+  background-color: #fff;
+  margin-top: 10px;
+  margin-left: 10px;
+  color: rgba(80, 80, 80, 1);
+	border-radius: 4px;
+	font-size: 14px;
+	box-shadow: 1px 1px 5px 0px rgba(0,0,0,0.5);
+  display: flex;
+}
+
+.pleft{
+  width: 40px;
+	height: 40px;
+  line-height:40px;
+	border-radius: 21px;
+  padding-top: 20px;
+  padding-left:15px;
+  flex:1;
+}
+.pleft img{
+  width: 45px;
+	height: 45px;
+	border-radius: 21px;
+
+}
+
+.pcenter{
+  flex:9;
+}
+.ptitle{
+  width: 70px;
+	height: 21px;
+	margin-left: 30px;
+	margin-top: 20px;
+	color: rgba(80, 80, 80, 1);
+  font-size: 12px;
+}
+.pcon{
+  width: 247px;
+	height: 42px;
+	padding-left: 30px;
+	margin-top: 5px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 12px;
+	line-height: 150%;
+	text-align: left;
+}
+
+.ptime{
+  font-size:11px;
+  margin-left:180px;
+ 	color: rgba(80, 80, 80, 1);
+  margin-top:-10px;
+}
+/* 加载更多 */
+.pload{
+  width: 330px;
+	height: 35px;
+  line-height:35px;
+	margin-left:18px;
+  margin-top:20px;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(248, 248, 248, 1);
+	box-shadow: rgba(0, 0, 0, 0.2) solid 1px;
+  border:1px solid #ccc;
+	border-radius: 6px;
+	font-size: 12px;
+	text-align: center;
+}
+/* 加载更多弹出 */
+.dialog {
+  width: 100px;
+  height: 90px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+}
+

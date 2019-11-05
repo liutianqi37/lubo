@@ -1,0 +1,102 @@
+.wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  font-size: 16px;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+header, footer {
+  position: relative;
+}
+
+main {
+  flex: 1;
+  overflow: hidden;
+}
+
+main .heasd {
+  width: 92%;
+  height: 62px;
+  display: flex;
+  margin: 15px auto;
+}
+
+main .heasd dt {
+  width: 100%;
+  flex: 0.5;
+}
+
+main .heasd dt img {
+  width: 100%;
+  height: 100%;
+}
+
+main .heasd dd {
+  flex: 2;
+  width: 100%;
+  display: flex;
+  line-height: 23px;
+}
+
+main .heasd dd .middles {
+  flex: 1.5;
+  width: 100%;
+  padding-left: 15px;
+}
+
+main .heasd dd .middles p:nth-child(2) {
+  color: red;
+}
+
+main .heasd dd .bottoms {
+  flex: 0.5;
+  width: 100%;
+  text-align: center;
+  line-height: 82px;
+}
+
+.footer {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  line-height: 45px;
+  background: #ccc;
+  position: fixed;
+  bottom: 0;
+}
+
+.footer span {
+  flex: 1;
+}
+
+.footer span:nth-child(3) {
+  text-align: left;
+}
+
+.footer span label {
+  color: red;
+}
+
+.footer span .buttons {
+  width: 100%;
+  height: 45px;
+  border-radius: 20px;
+  background: red;
+  color: #fff;
+  outline: none;
+  border: none;
+}

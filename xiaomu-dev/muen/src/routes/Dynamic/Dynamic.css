@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+header {
+  height: 44px;
+  border-bottom: 1px solid #ccc;
+  text-align: center;
+  line-height: 44px;
+  position: relative;
+}
+
+header b {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  font-size: 20px;
+}
+main {
+  flex: 1;
+  overflow: scroll;
+}
+.dycContent {
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+}
+.dycItem {
+  width: 100%;
+  margin-top: 10px;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}
+.dycItem_top {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  margin-top: 10px;
+}
+.dycItem_topLeft {
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  margin: 0 5px;
+}
+.dycItem_topLeft img {
+  width: 100%;
+  height: 100%;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+}
+.dycItem_topRight {
+  width: 300px;
+  height: 40px;
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+}
+.dycItem_topRight span {
+  flex: 1;
+}
+.dycItem_con {
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+.dycBanner {
+  width: 100%;
+  margin: 8px auto;
+  display: flex;
+}
+.dycBanner > div {
+  width: 168px;
+  height: 168px;
+  margin: 5px auto;
+}
+.dycBanner > div img {
+  width: 100%;
+  height: 100%;
+}
+.dycBottom {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  cursor: pointer;
+}
+.dycBottom span {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dycBottom span i {
+  margin-right: 10px;
+  font-size: 20px;
+}
+.btnAdd {
+  width: 90%;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 5px auto;
+}
+
+.dialog {
+  width: 100px;
+  height: 90px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+}
+
+#ImgDialog.on {
+  display: none;
+}
+#ImgDialog {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99999;
+}
+#ImgDialog .img {
+  width: 100%;
+  height: 120px;
+  background: red;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#ImgDialog .img img {
+  width: 100%;
+  height: 100%;
+}
+
+.cartoon{
+  animation: myfirst 5s linear 2s infinite alternate;
+}
+
+
+

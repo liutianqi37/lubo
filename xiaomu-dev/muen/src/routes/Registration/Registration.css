@@ -1,0 +1,125 @@
+.wrap {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1;
+    overflow: auto;
+  }
+
+  .rtop {
+    width: 44px;
+    height: 44px;
+    left: 65px;
+    top: 101px;
+    border-radius: 4px;
+    position: absolute;
+  }
+  .rtop img {
+    width: 34px;
+    height: 38px;
+    top: -2px;
+    position: absolute;
+  }
+
+  .rtitle {
+    width: 155px;
+    height: 30px;
+    left: 55px;
+    top: 5px;
+    color: #505050;
+    font-size: 20px;
+    text-align: left;
+    position: absolute;
+  }
+
+  .ruser {
+    width: 245px;
+    height: 30px;
+    left: 64px;
+    top: 185px;
+    text-indent: 5px;
+    color: #a6a6a6;
+    box-shadow: #2a82e4 solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #f3f3f7;
+  }
+
+  .rname {
+    width: 245px;
+    height: 30px;
+    left: 65px;
+    top: 234px;
+    text-indent: 5px;
+    color: #a6a6a6;
+    box-shadow: #cccccc solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #f3f3f7;
+  }
+
+  .rpassword {
+    width: 245px;
+    height: 30px;
+    left: 65px;
+    top: 282px;
+    text-indent: 5px;
+    color: #a6a6a6;
+    box-shadow: #cccccc solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #f3f3f7;
+  }
+
+  .ragain {
+    width: 245px;
+    height: 30px;
+    left: 65px;
+    top: 328px;
+    text-indent: 5px;
+    color: #a6a6a6;
+    box-shadow: #cccccc solid 1px;
+    border-radius: 2px;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: left;
+    position: absolute;
+    border: 1px solid #ccc;
+    background-color: #f3f3f7;
+  }
+
+  .rbtn {
+    width: 245px;
+    height: 30px;
+    left: 65px;
+    top: 380px;
+    color: #505050;
+    background-color: white;
+    box-shadow: gray solid 1px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #ccc;
+  }

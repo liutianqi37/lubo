@@ -1,0 +1,199 @@
+.main {
+  width: 100%;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  background: rgba(243, 243, 247, 1);
+}
+.top {
+  width: 100%;
+  height: 120px;
+  margin: 0px 15px;
+  margin-top: 10px;
+}
+.top .title span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+}
+.top dl {
+  margin-top: 3px;
+  margin-right: 30px;
+  width: auto;
+  height: 97px;
+  border: 1px solid #ccc;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+  position: relative;
+}
+.top dl .text {
+  position: absolute;
+  left: 2px;
+  top: 3px;
+  border: 2px solid #fff;
+  box-shadow: 1px 1px 1px 1px #ccc;
+  background: skyblue;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  color: #fff;
+}
+.top dl dd {
+  width: 40px;
+  height: auto;
+  line-height: 80px;
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.top dl dd img {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+}
+.top dl dt {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+.top dl dt .div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.top dl dt .name {
+  color: rgba(80, 80, 80, 1);
+  font-size: 13px;
+}
+.top dl dt .bianji {
+  margin-top: 10px;
+  margin-right: 20px;
+  color: rgba(28, 30, 122, 1);
+  font-size: 10px;
+}
+.top dl dt .con {
+  margin-right: 40px;
+  text-align: left;
+  color: rgba(80, 80, 80, 1);
+  font-size: 13px;
+}
+.top dl dt .time {
+  margin-top: 3px;
+  text-align: right;
+  color: rgba(80, 80, 80, 1);
+  font-size: 11px;
+}
+
+.box {
+  flex: 1;
+  width: 100%;
+  margin: 0px 15px;
+  margin-top: 10px;
+  overflow: auto;
+}
+.box .tit span {
+  color: rgba(0, 0, 0, 1);
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.box dl {
+  margin-top: 3px;
+  margin-right: 30px;
+  width: auto;
+  height: 95px;
+  border: 1px solid #ccc;
+  color: rgba(80, 80, 80, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 4px;
+  font-size: 14px;
+  box-shadow: 1px 1px 2px 0px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 9px;
+}
+.box dl dd {
+  width: 40px;
+  height: auto;
+  line-height: 80px;
+  margin-left: 15px;
+  margin-top: 8px;
+  margin-right: 10px;
+}
+.box dl dd img {
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 50%;
+}
+.box dl dt {
+  flex: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+.box dl dt .name {
+  text-align: left;
+  margin-top: 10px;
+  color: rgba(80, 80, 80, 1);
+  font-size: 13px;
+}
+.box dl dt .con {
+  margin-top: 3px;
+  margin-right: 30px;
+  text-align: left;
+  color: rgba(80, 80, 80, 1);
+  font-size: 13px;
+}
+.box dl dt .time {
+  margin-top: 4px;
+  text-align: right;
+  color: rgba(80, 80, 80, 1);
+  font-size: 11px;
+}
+.botto {
+  width: 100%;
+  height: 40px;
+  position: relative;
+}
+.loading {
+  border: 1px solid #ccc;
+  margin: 20px 40px 40px 15px;
+  height: 38px;
+  line-height: 38px;
+  color: rgba(0, 0, 0, 1);
+  background-color: rgba(248, 248, 248, 1);
+  box-shadow: rgba(0, 0, 0, 0.2) solid 1px;
+  border-radius: 6px;
+  font-size: 14px;
+  text-align: center;
+}
+.dialog {
+  width: 100px;
+  height: 90px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.9);
+  font-size: 14px;
+}

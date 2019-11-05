@@ -1,0 +1,64 @@
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+}
+.input{
+    border: 1px solid #fff;
+    padding-top: 30px;
+    padding-left: 30px;
+
+}
+.six{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+    padding: 10px 30px; 
+
+}
+.six .text{
+    border: 2px solid #fff;
+    box-shadow: 1px 1px 1px 1px #ccc;
+    background: skyblue;
+    width: 25px ;
+    height: 25px    ;
+    line-height:25px   ;
+    text-align: center;
+    color: #fff;
+
+}
+  .ant-tooltip .ant-tooltip-placement-right{
+    width:100px;
+    height:70px;
+}
+  .ant-tooltip-arrow{
+    overflow: hidden;
+}
+ 
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+  }
+.ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+}
+ .clearfix{
+     flex: 1;
+     margin-top: 20px;
+     margin-left: 30px;
+ }
+.btn{
+    margin: 20px 60px 10px 60px;
+    height: 35px;
+    line-height: 35px;
+    color: rgba(0, 0, 0, 1);
+    background-color: rgba(42, 130, 228, 1);
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}

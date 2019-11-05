@@ -1,0 +1,241 @@
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: rgba(243, 243, 247, 1);
+}
+.top{
+    width:100%;
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+    border-bottom: 1px solid #ccc;
+}
+.top dl{
+    margin-top: 5px;
+    margin-right: 30px;
+    width: auto;
+    height: 97px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    position: relative;
+}
+.top dl dd{
+    width: 40px;
+    height: auto;
+    line-height: 80px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.top dl dd img{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+}
+.top dl dt{
+    flex:1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.top dl dt .div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.top dl dt .name{
+    color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+}
+.top dl dt .con{
+    margin-top: 3px;
+    margin-right: 40px;
+    text-align: left;
+    color: rgba(80, 80, 80, 1);
+	font-size: 13px;
+}
+.top dl dt .time{
+    margin-top: 3px;
+    text-align: right;
+    color: rgba(80, 80, 80, 1);
+	font-size: 11px;
+}
+.tab{
+    margin: 0 auto;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.tab .left{
+    height: 26px;
+    line-height: 26px;
+    width: 120px;
+    color: aliceblue;
+    background: rgba(255, 87, 51, 1);
+    border: 1px solid rgba(255, 87, 51, 1); 
+}
+.tab .active{
+    height: 26px;
+    line-height: 26px;
+    width: 120px;
+    color: #000;
+    background: aliceblue;
+    border: 1px solid rgba(255, 87, 51, 1); 
+}
+.box{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.pingqu{
+    width:100%; 
+    /* 不要给高度 */
+}
+.pingqu dl{
+    margin-right: 30px;
+    width: auto;
+    height: 97px;
+	color: rgba(80, 80, 80, 1);
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    position: relative;
+}
+.pingqu dl dd{
+    width: 40px;
+    height: auto;
+    line-height: 80px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.pingqu dl dd img{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+}
+.pingqu dl dt{
+    flex:1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.pingqu dl dt .name{
+    padding-top: 23px;
+    text-align: left;
+    font-size: 12px;
+    color: rgba(42, 130, 228, 1);
+}
+.pingqu dl dt .haiyou{
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+}
+.pingqu dl dt .haiyou .con{
+    color: rgba(80, 80, 80, 1);
+	font-size: 10px;
+}
+.pingqu dl dt .haiyou .time{
+	font-size: 10px;
+}
+.up{
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+}
+.dianzan{
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.who{
+    width:100%;
+    height: 120px;
+    margin-top: 10px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+.who dl{
+    margin-top: 5px;
+    margin-right: 30px;
+    width: auto;
+    height: 97px;
+	color: rgba(80, 80, 80, 1);
+	font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    position: relative;
+}
+.who dl dd{
+    width: 40px;
+    height: auto;
+    line-height: 80px;
+    margin-left: 15px;
+    margin-right: 12px;
+}
+.who dl dd img{
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+}
+.who dl dt{
+    flex:1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 12px;
+}
+.who dl dt .div{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.who dl dt .name{
+    color: rgb(233, 39, 233);
+	font-size: 14px;
+}
+.who dl dt .con{
+    margin-top: 7px;
+    padding-top: 5px;
+    margin-right: 40px;
+    text-align: left;
+    color: lightskyblue;
+	font-size: 13px;
+}
+.who dl dt .time{
+    text-align: right;
+    color: rgb(36, 221, 228);
+	font-size: 13px;
+}
+.loading{
+    border: 1px solid #ccc;
+    margin: 20px 40px 40px 30px;
+    height: 35px;
+    line-height: 35px;
+	color: rgba(0, 0, 0, 1);
+	background-color: rgba(248, 248, 248, 1);
+	box-shadow: rgba(0, 0, 0, 0.2) solid 1px;
+	border-radius: 6px;
+	font-size: 14px;
+	text-align: center;
+}
+.boxactive{
+    display: none;
+}
